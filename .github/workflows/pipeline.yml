@@ -7,9 +7,8 @@ on:
   pull_request:
     branches: [master]
     types: [opened, synchronize]
-    
-jobs:
 
+jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-latest
     steps:
